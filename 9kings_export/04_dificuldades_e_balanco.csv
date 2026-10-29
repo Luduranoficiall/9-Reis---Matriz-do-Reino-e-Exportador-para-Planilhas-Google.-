@@ -1,0 +1,5 @@
+﻿CÓDIGO,NÍVEL,DESCRIÇÃO,MULT. HP,MULT. DANO,TOTAL ONDAS,OURO INICIAL,CHEFES,FATOR CAOS,MULT. RECOMPENSAS
+facil,Fácil (Novato dos Reinos),"Inimigos moderados, economia generosa e ondas previsíveis.",75%,70%,8,250,"[4, 8]",5%,1.0x
+medio,Médio (Conquistador Real),A experiência equilibrada padrão do 9 Kings.,100%,100%,12,175,"[4, 8, 12]",15%,1.5x
+dificil,Difícil (Cerco dos 9 Reis),Exércitos rivais usam feitiços agressivos e bombardeiros.,150%,145%,16,120,"[4, 8, 12, 16]",35%,2.2x
+hard_master,Hard Master (Soberano Supremo),Nível extremo para veteranos. Inimigos atacam em hordas caóticas e chefes duplos.,229%,220%,20,80,"[3, 6, 10, 15, 20]",65%,3.5x

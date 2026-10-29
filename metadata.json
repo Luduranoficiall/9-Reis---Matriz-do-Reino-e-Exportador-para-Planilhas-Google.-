@@ -1,0 +1,8 @@
+{
+  "name": "9 Kings - Sheets Exporter & Game Hub",
+  "description": "Exportação completa dos dados do jogo 9 Kings para Google Sheets no Google Drive, simulador de batalhas com 4 níveis de dificuldade (Fácil, Médio, Difícil, Hard Master) e script de automação em Python.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
