@@ -11,6 +11,7 @@ import { STEAM_GAME_INFO, NINE_KINGS, GAME_CARDS, DIFFICULTY_CONFIGS, INITIAL_SI
 import { SimulationRun } from './types/game';
 import { Header } from './components/Header';
 import { InteractiveGameArena } from './components/InteractiveGameArena';
+import { AnalyticsDashboard } from './components/AnalyticsDashboard';
 import { DatabaseExplorer } from './components/DatabaseExplorer';
 import { SheetsExportModal } from './components/SheetsExportModal';
 import { PythonScriptModal } from './components/PythonScriptModal';
@@ -153,7 +154,15 @@ export default function App() {
           />
         </section>
 
-        {/* Section 2: Complete Game Database Explorer */}
+        {/* Section 2: Recharts Analytics Dashboard */}
+        <section aria-labelledby="analytics-section-heading">
+          <AnalyticsDashboard
+            simulationRuns={simulationRuns}
+            onOpenExporter={() => setIsExporterOpen(true)}
+          />
+        </section>
+
+        {/* Section 3: Complete Game Database Explorer */}
         <section aria-labelledby="database-section-heading">
           <div className="mb-3 flex items-center justify-between">
             <h2 id="database-section-heading" className="text-sm font-bold uppercase tracking-wider text-slate-400 flex items-center gap-2">

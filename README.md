@@ -10,10 +10,11 @@
 Este projeto foi desenvolvido com urgência para extrair, organizar e automatizar a exportação de todos os dados do jogo **9 Kings** (Sad Socket / Hooded Horse) diretamente para o **Google Sheets** no **Google Drive** do usuário.
 
 A aplicação inclui:
-1. **Integração Real com Google Drive e Google Sheets:** Criação automatizada de planilhas formatadas com 6 abas detalhadas.
-2. **Script de Automação em Python (`export_to_sheets.py`):** Script independente sem dependências externas (Python Standard Library pura), pronto para CLI ou agendamentos cron.
-3. **Simulador de Batalhas Roguelike:** Arena jogável a 60fps com simulação de balanceamento em 4 níveis de dificuldade (*Fácil*, *Médio*, *Difícil* e *Hard Master*), com capacidade de rodar lotes de partidas (*"muitas vezes"*).
-4. **Base de Dados Completa:** Dados do Steam, informações da versão 1.0 (lançamento previsto em 12/nov./2026), catálogo dos 9 Monarcas, 17+ cartas/unidades, sinergias e histórico de partidas.
+1. **Painel de Visualização de Dados (Recharts Dashboard):** Gráficos interativos de barras, linhas e áreas exibindo o histórico de vitórias vs derrotas, taxa de vitória (%), dano médio e sobrevivência de ondas por nível de dificuldade (*Fácil*, *Médio*, *Difícil* e *Hard Master*).
+2. **Integração Real com Google Drive e Google Sheets:** Criação automatizada de planilhas formatadas com 6 abas detalhadas.
+3. **Script de Automação em Python (`export_to_sheets.py`):** Script independente sem dependências externas (Python Standard Library pura), pronto para CLI ou agendamentos cron.
+4. **Simulador de Batalhas Roguelike:** Arena jogável a 60fps com simulação de balanceamento em 4 níveis de dificuldade, com capacidade de rodar lotes de partidas (*"muitas vezes"*).
+5. **Base de Dados Completa:** Dados do Steam, informações da versão 1.0 (lançamento previsto em 12/nov./2026), catálogo dos 9 Monarcas, 22 cartas/unidades, sinergias e histórico de partidas.
 
 ---
 
